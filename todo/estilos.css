@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfaf6;
+    color: #333;
+  }
+  
+  header {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    /*padding: 40px 20px;
+    text-align: center;display: flex;*/
+    flex-direction: row;  /* Alinea los hijos de forma vertical */
+    align-items: center;     /* Centra los elementos horizontalmente */
+    padding: 20px;
+  }
+  .encabezado {
+  display: flex;     /* Centra verticalmente el texto respecto al logo */
+  gap: 10px;                /* Espacio entre el logo y el texto */
+  padding: 10px;
+
+  
+  flex-direction: column;      /* Centra horizontalmente */
+  justify-content: center;   /* Centra verticalmente (si está en pantalla completa) */
+  
+  text-align: center;
+}
+
+.encabezado img {
+  width: 190px;              /* Ajustás el tamaño del logo acá */
+  height: auto;
+}
+
+.Subtitulo1 {
+ font-size: 18px;
+  margin-top: 10px;
+}
+.Subtitulo2 {
+font-size: 18px;
+  margin-top: 10px;
+}
+
+  
+  nav {
+    background-color: rgb(200, 0, 0);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 30px 20px;
+  }
+  
+  .plato {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: rgb(255, 0, 0  );
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 60px;
+    font-size: 1.3em;
+  }
+  
+    .logo-boton img {
+  width: 120px; /* Ajusta el tamaño como prefieras */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  display: block;
+  text-align: center; /* Alinea el contenido dentro del contenedor */
+  margin-left: 0;   /* Sin margen izquierdo */
+}
+
+.logo-boton img:hover {
+  transform: scale(1.05); /* Efecto sutil al pasar el mouse */
+}
+  
+  
